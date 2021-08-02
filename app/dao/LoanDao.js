@@ -10,6 +10,7 @@ const createLoan = loanObj => {
   return loanPromise(2000, { loans: Loans, message: 'Loan created successfully' });
 };
 
+
 const getLoanByUser = loanObj => {
   let userLoans = [];
   if (loanObj === 'ADMIN') {
