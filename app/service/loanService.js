@@ -1,4 +1,4 @@
-const loanDao = require('../dao/loanDao');
+const loanDao = require('../dao/LoanDao');
 
 const createLoan = async (req, res) => {
   try {
